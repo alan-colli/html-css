@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Passion+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+:root {
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: ;
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -45,6 +52,7 @@ section {
 .normal {
   display: flex;
   background-color: white;
+  font-family: ;
 }
 .imagem {
   display: flex;
