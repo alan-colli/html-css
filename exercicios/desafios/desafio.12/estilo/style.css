@@ -58,17 +58,25 @@ section {
 .normal {
   display: flex;
   background-color: white;
-  font-family: ;
 }
 .imagem {
   display: flex;
   background-color: grey;
   color: white;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.43);
 }
 .imagem > p {
   background-color: rgba(0, 0, 0, 0.196);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.299);
 }
-
+#joaninha {
+  background: url(../imagens/background001.jpg) center center repeat-y fixed;
+  background-size: cover;
+}
+#carta {
+  background: url(../imagens/background002.jpg) right bottom repeat-y fixed;
+  background-size: cover;
+}
 footer {
   display: flex;
   background-color: black;
